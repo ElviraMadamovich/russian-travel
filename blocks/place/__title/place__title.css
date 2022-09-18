@@ -15,5 +15,16 @@
   .place__title {
     grid-column: 1;
     grid-row: 1;
+    font-size: 32px;
+    line-height: 35px;
+    line-height: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    Font-size: 42px;
+    Line-height: 46px;
+    Line-height: 90%;
   }
 }

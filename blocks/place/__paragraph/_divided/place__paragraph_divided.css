@@ -1,0 +1,28 @@
+.place__paragraph_divided {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.place__paragraph_divided:nth-child(2) {
+  margin: 26px 0 0 0;
+}
+
+@media screen and (max-width:320px) {
+  .place__paragraph_divided {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .place__paragraph_divided {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

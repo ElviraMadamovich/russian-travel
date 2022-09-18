@@ -9,3 +9,9 @@
   padding: 0;
   column-gap: 18px;
 }
+
+@media screen and (max-width:320px) {
+  .header__lang-links {
+    top: 14px;
+  }
+}

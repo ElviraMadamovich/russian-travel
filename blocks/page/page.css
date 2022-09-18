@@ -26,7 +26,6 @@
 }
 
 .page {
-  min-width: 1184px;
   max-width: 1280px;
   margin: auto;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
@@ -34,4 +33,22 @@
   position: relative;
   -webkit-font-smoothing: 100%;
   -moz-osx-font-smoothing: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320x) {
+  .page {
+    max-width: 320px;
+  }
 }

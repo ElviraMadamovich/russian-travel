@@ -11,3 +11,12 @@
   margin: 0;
   text-decoration: none;
 }
+
+@media screen and (max-width:320px) {
+  .header__link {
+    font-family:'Inter';
+    font-size: 18px;
+    line-height: 20px;
+    line-height: 92%;
+  }
+}
