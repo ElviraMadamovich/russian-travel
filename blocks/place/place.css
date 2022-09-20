@@ -8,9 +8,3 @@
   justify-content: center;
   align-items: start;
 }
-
-@media screen and (max-width:320px){
-  .place {
-    grid-template-columns: max-content;
-  }
-}

@@ -2,7 +2,7 @@
   margin: 32px 0 0 0;
   max-width: 360px;
   max-height: 66px;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,8 +10,7 @@
   text-align: center;
   column-gap: 32px;
   color: #FFFFFF;
-  position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (max-width:320px) {

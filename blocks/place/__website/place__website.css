@@ -1,8 +1,7 @@
 .place__website {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   list-style-type: none;
-  width: 456px;
-  height: 46px;
+  max-width: 456px;
   padding: 0;
   grid-column: 2;
   grid-row: 1;
