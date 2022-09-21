@@ -1,6 +1,4 @@
 .header__lang-links {
-  top: 18px;
-  right: 0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -9,10 +7,4 @@
   column-gap: 18px;
   justify-content: flex-end;
   align-items: center;
-}
-
-@media screen and (max-width:320px) {
-  .header__lang-links {
-    top: 14px;
-  }
 }
