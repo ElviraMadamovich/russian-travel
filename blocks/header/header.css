@@ -2,12 +2,12 @@
   position: relative;
   height: 100vh;
   max-height: 52px;
-  min-width: 1184px;
+  max-width: 1184px;
   transform: translateY(28px);
-  margin: 0 48px 0 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width:320px) {
