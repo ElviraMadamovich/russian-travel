@@ -13,6 +13,7 @@
   .place {
     max-width: 928px;
     gap: 48px 32px;
+    margin: 0;
   }
 }
 
@@ -20,6 +21,7 @@
   .place {
     max-width: 720px;
     gap: 48px 28px;
+    margin: 0;
   }
 }
 
@@ -27,5 +29,6 @@
   .place {
     max-width: 288px;
     gap: 32px;
+    margin: 0;
   }
 }
