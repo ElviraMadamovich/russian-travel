@@ -23,5 +23,6 @@
   .lead__pic {
     max-width:320px;
     margin: 40px 0 8px 0;
+    object-fit: cover;
   }
 }
