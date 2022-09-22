@@ -2,14 +2,14 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  align-items: flex-start;
   column-gap: 18px;
+  padding: 0;
 }
 
 @media screen and (max-width:320px) {
   .footer__links {
-    flex-wrap: wrap;
     row-gap: 32px;
+    flex-direction: column;
   }
 }
