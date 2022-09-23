@@ -18,3 +18,21 @@
 .cover__overlay:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+  .cover {
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
