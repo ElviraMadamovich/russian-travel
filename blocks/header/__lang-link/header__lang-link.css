@@ -15,5 +15,6 @@
   .header__link {
     font-size: 18px;
     line-height: 20px;
+    max-width: 20px;
   }
 }

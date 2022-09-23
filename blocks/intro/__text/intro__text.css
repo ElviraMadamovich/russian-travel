@@ -3,25 +3,26 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26.08px;
   color: #FFFFFF;
   margin: 40px 0 33px 0;
 }
 
-@media screen and (max-width:1024px) {
-  .intro {
-    max-width: 690px;
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .intro__text {
+    width: 100vw;
   }
 }
 
-@media screen and (max-width:768px) {
-  .intro {
-    max-width: 720px;
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .intro__text {
+    width: 100%;
   }
 }
 
-@media screen and (max-width:320px) {
-  .intro {
-    max-width: 288px;
+@media screen and (min-width:320px) and (max-width: 767px) {
+  .intro__text {
+    width: 100vw;
+    margin: 34px 0 64px 0;
   }
 }
