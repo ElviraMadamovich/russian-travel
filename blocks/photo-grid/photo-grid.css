@@ -33,5 +33,6 @@
     width: 90%;
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 1fr);
+    margin: 0 16px;
   }
 }

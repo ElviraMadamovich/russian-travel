@@ -5,6 +5,7 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
+  padding: 0;
   color: #FFFFFF;
   max-width: 460px;
   grid-column: 1;
@@ -37,5 +38,6 @@
     max-width: 288px;
     grid-column: 1;
     grid-row: 1;
+    padding: 0 16px 0 16px;
   }
 }
