@@ -8,7 +8,7 @@
   align-items: flex-start;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .intro {
     width: calc(100% - 32.62%);
     margin: 114px auto 92px 48px;
