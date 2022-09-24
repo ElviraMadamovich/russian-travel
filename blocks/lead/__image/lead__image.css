@@ -5,10 +5,3 @@
   object-fit: cover;
   padding: 0;
 }
-
-@media screen and (min-width:1024px) {
-  .lead__image {
-    width: 90.625%;
-    padding: 0;
-  }
-}
