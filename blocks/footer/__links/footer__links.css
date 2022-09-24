@@ -12,5 +12,6 @@
     row-gap: 32px;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 0;
   }
 }
