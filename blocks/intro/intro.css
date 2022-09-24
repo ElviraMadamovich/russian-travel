@@ -27,5 +27,6 @@
   .intro {
     width: calc(100% - 10%);
     margin: 64px auto;
+    padding: 0;
   }
 }
