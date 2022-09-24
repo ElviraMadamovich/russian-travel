@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 320px) {
   .footer {
-    width: ccalc(100% - 41.875%);
+    width: calc(100% - 41.875%);
     flex-direction: column;
     margin: 62px 0 24px 0;
     padding: 0 0 0 16px;
