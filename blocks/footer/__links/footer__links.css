@@ -11,5 +11,6 @@
   .footer__links {
     row-gap: 32px;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
