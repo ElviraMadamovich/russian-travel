@@ -5,6 +5,7 @@
   align-items: flex-start;
   column-gap: 18px;
   padding: 0;
+  margin: 0;
 }
 
 @media screen and (min-width:320px) and (max-width: 767px) {

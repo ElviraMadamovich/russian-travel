@@ -25,7 +25,7 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    width: calc(100% - 6.25%);
+    max-width: 640px;
     margin: 32px 0 0 0;
     text-align: center;
   }

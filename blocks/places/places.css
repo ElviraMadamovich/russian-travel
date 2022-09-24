@@ -8,13 +8,14 @@
   align-items: center;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .places {
     width: calc(100% - 9.375%);
+    margin: 92px 48px 0 48px;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
   .places {
     width: 93.75%;
     margin: 88px 24px 0 24px;
