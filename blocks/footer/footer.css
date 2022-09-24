@@ -4,10 +4,10 @@
   margin: 62px 0 24px 0;
   padding: 0 0 0 16px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  outline: 1px solid red;
 }
 
 @media screen and (min-width: 1280px) {
@@ -15,7 +15,6 @@
     width: calc(100% - 7.5%);
     min-height: 18px;
     margin: 92px 48px 24px 48px;
-    flex-wrap: nowrap;
   }
 }
 
@@ -23,13 +22,11 @@
   .footer {
     width: calc(100% - 6.25%);
     margin: 88px 24px 24px 24px;
-    flex-wrap: nowrap;
   }
 }
 
 @media screen and (min-width:1024px) {
   .footer {
     width: calc(100% - 9.375%);
-    flex-wrap: nowrap;
   }
 }
