@@ -8,7 +8,6 @@
   line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-  position: relative;
   z-index: 2;
 }
 
@@ -18,5 +17,17 @@
     line-height: 35px;
     width: calc(100% - 10%);
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .cover__title {
+    width: calc(100% - 27.08%);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1269px) {
+  .cover__title {
+    width: calc(100% - 45.31%);
   }
 }
