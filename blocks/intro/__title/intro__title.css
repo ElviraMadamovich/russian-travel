@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__title {
     width: 100%;
   }
@@ -22,7 +22,7 @@
 
 @media screen and (min-width:320px) and (max-width: 767px) {
   .intro__title {
-    width: calc(100% - 10%);
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
