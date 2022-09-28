@@ -11,6 +11,7 @@
   flex-direction: column;
   text-decoration: none;
   padding: 0;
+  transition: 0.2s;
 }
 
 .cover__overlay::after {
