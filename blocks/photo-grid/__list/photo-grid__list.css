@@ -31,6 +31,6 @@
   .photo-grid__list {
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(12, 1fr);
-    row-gap: 12px;
+    margin: 0 0 12px 0;
   }
 }
